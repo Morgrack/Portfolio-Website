@@ -16,7 +16,7 @@ try {
   $mail->SMTPSecure= 'tls';
   $mail->Port = 587;
   $mail->Username = 'morgrack@gmail.com';
-  $mail->Password = 'btbt yoes yorz tvje';
+  $mail->Password = 'password';
   //Sender &amp; Recipient
   $mail->setFrom($_POST['email'], $_POST['name']);
   $mail->addAddress('morgrack@gmail.com');
